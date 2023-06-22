@@ -1,0 +1,3 @@
+-- Active: 1687350775689@@127.0.0.1@5432@test@public
+SELECT * FROM person LIMIT 10;
+SELECT * FROM person OFFSET 5 LIMIT 5;
